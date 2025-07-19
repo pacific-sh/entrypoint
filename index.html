@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pacific</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect width='16' height='16' fill='%23000'/></svg>">
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    background: #000;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+  }
+
+  .hero {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+  }
+
+  .hero img {
+    border-radius: clamp(0.7rem, 2vw, 0.7rem);
+    width: min(30vw, 25rem);
+    min-width: 10rem;
+    height: auto;
+  }
+</style>
+<body>
+  <main>
+    <section class="hero">
+      <img src="https://cdn.pacific.sh/hero.gif" alt="Touching grass">
+    </section>
+  </main>
+</body>
+</html>
